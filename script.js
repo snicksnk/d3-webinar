@@ -1,1 +1,1 @@
-d3.json('https://yobit.net/api/3/depth/btc_usd').then(data => console.log(data));
+d3.json('http://localhost:9000/api/3/depth/btc_usd').then(data => console.log(data));
